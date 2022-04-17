@@ -1,3 +1,25 @@
 * {
   font-family: "Roboto";
 }
+
+
+
+.darkBlue {
+  color: #9381FF;
+}
+
+.blue {
+  color: #B8B8FF;
+}
+
+.lightBlue {
+  color: #F8F7FF;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+.darkBrown {
+  color: #FFD8BE;
+}
