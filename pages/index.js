@@ -1,12 +1,13 @@
 import styles from '../styles/Home.module.css'
 import ProductList from '../components/ProductList'
-import ProductCard from '../components/ProductCard'
+import { Container } from "@mui/material"
+
 const Home = () => {
   return (
     <>
-      <ProductList />
-
-      {/* <ProductCard /> */}
+      <Container>
+        <ProductList/>
+      </Container>
     </>
   )
 }

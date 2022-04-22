@@ -1,41 +1,35 @@
-import { AppBar, Box, Toolbar, Typography, Button, IconButton  } from "@mui/material"
+import { AppBar, Box, Container, Toolbar, Typography, Button, IconButton  } from "@mui/material"
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import COLORS from "../styles/colors"
 
 
 const Navbar = () => {
   return (
-    <Box sx={{ flexGrow: 1, width:"100%"}}>
-        <AppBar position="sticky" style={{backgroundColor: COLORS.background}}>
-            <Toolbar>
-                <IconButton
-                    style={{color: COLORS.accent}}
-                >
-                    <MenuIcon />
-                </IconButton>
-                <Typography
-                    sx={{mr: "auto",}}
-                    style={{color: COLORS.secondary, fontFamily: "Oswald", fontSize:"1.3rem"}}
-                    variant="h5"
-                >
-                    whateverhappenshappens.
-                </Typography>
-                <IconButton
-                    style={{color: COLORS.accent}}
-                    sx={{ml: "auto"}}
-                >
-                    <AccountCircleIcon />
-                </IconButton>
-                <IconButton
-                    style={{color: COLORS.accent}}
-                >
-                    <ShoppingBagIcon />
-                </IconButton>
-            </Toolbar>
-        </AppBar>
-    </Box>
+    <Container>
+      <AppBar position="static" className="background">
+        <Toolbar sx={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+          <Box sx={{flex: 1, textAlign:"left"}}>
+            <IconButton className="accentColor">
+              <MenuIcon />
+            </IconButton>
+          </Box>
+          <Box sx={{flex: 1, textAlign:"center"}}>
+          <Typography variant="h5" className="titleText textSecondary">
+            whateverhappens
+          </Typography>
+          </Box>
+          <Box sx={{flex: 1, textAlign:"right"}}>
+            <IconButton className="accentColor">
+              <AccountCircleIcon />
+            </IconButton>
+            <IconButton className="accentColor">
+              <ShoppingBagIcon />
+            </IconButton>
+          </Box>
+        </Toolbar>
+      </AppBar>
+    </Container>
   )
 }
 
