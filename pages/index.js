@@ -1,8 +1,13 @@
 import styles from '../styles/Home.module.css'
+import ProductList from '../components/ProductList'
 import ProductCard from '../components/ProductCard'
 const Home = () => {
   return (
-    <ProductCard></ProductCard>
+    <>
+      <ProductList />
+
+      {/* <ProductCard /> */}
+    </>
   )
 }
 
