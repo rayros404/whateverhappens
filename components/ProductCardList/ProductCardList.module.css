@@ -8,6 +8,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #F1FAEE;
-  font-size: clamp(50px, 3vw, 100px);
+  font-size: clamp(30px, 4vw, 100px);
   text-align: center;
 }

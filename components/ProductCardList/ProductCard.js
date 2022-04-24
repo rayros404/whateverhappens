@@ -4,7 +4,7 @@ import styles from './ProductCardList.module.css'
 
 const ProductCard = (props) => {
   return (
-    <Grid item xs={12} sm={4}>
+    <Grid item xs={4}>
       <Card>
         <CardActionArea>
           <CardMedia
