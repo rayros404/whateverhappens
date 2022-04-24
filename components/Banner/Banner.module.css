@@ -1,0 +1,11 @@
+.bannerContainer {
+  display: flex;
+  height: 80vh;
+  background-color: orange;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+.bannerInfo {
+  
+}
