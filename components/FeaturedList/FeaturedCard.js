@@ -1,6 +1,6 @@
 import { Grid, Box, Card, CardContent, CardMedia, CardActionArea, Typography } from "@mui/material"
 
-const ProductCard = () => {
+const FeaturedCard = () => {
   return (
     <Grid item xs={12} sm={6} md={3} >
       <Card className="foreground">
@@ -29,4 +29,4 @@ const ProductCard = () => {
   )
 }
 
-export default ProductCard
+export default FeaturedCard
