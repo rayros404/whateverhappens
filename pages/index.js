@@ -3,6 +3,7 @@ import ProductCardList from "../components/ProductCardList/ProductCardList"
 import FeaturedList from '../components/FeaturedList/FeaturedList'
 import Banner from '../components/Banner/Banner'
 import NavLinkList from '../components/NavLinkList/NavLinkList'
+import Footer from '../components/Footer/Footer'
 
 import { Container } from "@mui/material"
 
@@ -15,6 +16,7 @@ const Home = () => {
         <ProductCardList/>
         <FeaturedList/>
       </Container>
+      <Footer/>
     </>
   )
 }
