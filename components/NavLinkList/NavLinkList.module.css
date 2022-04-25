@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.link {
+  font-size: 20px;
+  margin: 5px 15px;
+  color: #264b7f;
+}

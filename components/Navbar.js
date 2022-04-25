@@ -7,7 +7,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const Navbar = () => {
   return (
     <Container>
-      <AppBar position="static" className="background">
+      <AppBar position="static" elevation={1} className="background">
         <Toolbar sx={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
           <Box sx={{flex: 1, textAlign:"left"}}>
             <IconButton className="accentColor">
