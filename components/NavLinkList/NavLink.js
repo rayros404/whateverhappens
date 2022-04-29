@@ -3,7 +3,7 @@ import styles from "./NavLinkList.module.css"
 
 const NavLink = (props) => {
   return (
-    <Link href="#" underline="hover" className={`titleText ${styles.link}`}>
+    <Link href={props.route} underline="hover" className={`titleText ${styles.link}`}>
       {props.title}
     </Link>
   )

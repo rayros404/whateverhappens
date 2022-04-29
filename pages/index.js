@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <>
       <Container>
-        <NavLinkList/>
         <Banner/>
         <ProductCardList/>
         <FeaturedList/>

@@ -13,7 +13,6 @@ const Collection = () => {
   ))
   return (
     <>
-      
       <Grid container spacing={2} >
         {CollectionCards}
       </Grid>

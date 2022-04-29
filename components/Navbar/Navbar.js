@@ -1,4 +1,4 @@
-import { AppBar, Box, Container, Toolbar, Typography, Button, IconButton, CssBaseline  } from "@mui/material"
+import { AppBar, Box, Container, Toolbar, Typography, Button, IconButton, Link  } from "@mui/material"
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
@@ -14,9 +14,11 @@ const Navbar = () => {
             <Socials/>
           </Box>
           <Box sx={{flex: 1, textAlign:"center"}}>
-          <Typography variant="h5" className="titleText textSecondary" sx={{fontWeight: "bold", letterSpacing: "6px", fontSize:"30px"}}>
-            WHATEVERHAPPENS
-          </Typography>
+          <Link href="/" underline="none">
+            <Typography variant="h5" className="titleText textSecondary" sx={{fontWeight: "bold", letterSpacing: "6px", fontSize:"30px"}}>
+              WHATEVERHAPPENS
+            </Typography>
+          </Link>
           </Box>
           <Box sx={{flex: 1, textAlign:"right"}}>
             <IconButton className="accentColor" >

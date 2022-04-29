@@ -5,7 +5,7 @@ import styles from "./NavLinkList.module.css"
 const NavLinkList = () => {
   return (
     <div className={styles.container}>
-      <NavLink title="ALL"/>
+      <NavLink title="ALL" route="collection"/>
       <NavLink title="NEW"/>
       <NavLink title="SALE"/>
       <NavLink title="TOPS"/>
