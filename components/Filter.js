@@ -9,7 +9,7 @@ const Filter = () => {
   console.log(filter)
 
   return (
-    <Box sx={{minWidth:120}}>
+    <Box sx={{minWidth:250}}>
       <FormControl fullWidth>
         <InputLabel id="filter-label">Sort By</InputLabel>
         <Select
