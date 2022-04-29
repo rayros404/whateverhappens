@@ -6,6 +6,7 @@ const NavLinkList = () => {
   return (
     <div className={styles.container}>
       <NavLink title="ALL" route="collection"/>
+      <NavLink title="FEATURED"/>
       <NavLink title="NEW"/>
       <NavLink title="SALE"/>
       <NavLink title="TOPS"/>
