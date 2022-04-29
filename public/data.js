@@ -32,7 +32,7 @@ export const allProducts = [
   },
   {
     id: 3,
-    title: "Vintage Black Varsity Jacket",
+    title: "Black Varsity Jacket",
     imgs: [
       "https://media-photos.depop.com/b0/21750200/1170024057_1b71f0951c8b4eedaf2cab63087a0574/P0.jpg",
       "https://media-photos.depop.com/b0/21750200/1170024060_2d50a771c72a4d51be7625d4549442b9/P0.jpg",
