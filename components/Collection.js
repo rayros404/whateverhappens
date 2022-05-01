@@ -8,7 +8,8 @@ const Collection = () => {
       key={product.id}
       img={product.imgs[0]}
       title={product.title}
-      price={product.price}  
+      price={product.price}
+      route={`collection/${product.id}`}  
     />
   ))
   return (
